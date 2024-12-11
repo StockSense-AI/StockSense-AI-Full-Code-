@@ -6,7 +6,8 @@ import joblib  # Assuming your model is saved using joblib
 import yfinance as yf  # For fetching stock data (if required)
 
 # Load your trained model
-model = joblib.load('/Users/makarigreen/Documents/ML_Final_Project/StockPrediction.py')
+# You'll be loading in the directory in which you have StockPrediction.py saved
+model = joblib.load('/data/path/to/StockPrediction.py')
 
 def fetch_stock_data(company_name):
     try:
