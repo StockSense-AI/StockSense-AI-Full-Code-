@@ -30,10 +30,7 @@ This project predicts stock prices using historical data and a machine learning 
     matplotlib
     tkinter
     joblib
-4. Save your trained model as a .pkl file in the project directory using joblib
-    import joblib
-    joblib.dump(model, 'linear_regression_model.pkl')
-5. Launch the GUI
+4. Launch the GUI
     python StockPredictionGUI.py
     Input a stock ticker (e.g., AAPL) in the provided text field.
     Click "Predict Stock Price" to get predictions.
