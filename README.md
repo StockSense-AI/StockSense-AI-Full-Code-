@@ -60,7 +60,7 @@ Implement advanced preprocessing techniques for improved predictions.
 Enhance the GUI with more user-friendly features and detailed visualizations.
 Contributors
 
-Makari Green and Adeolu Adebiyi
+Makari Green and Danny Adebiyi
 Developers and maintainers of the Stock Price Predictor project.
 
 
