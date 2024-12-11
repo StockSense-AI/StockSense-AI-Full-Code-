@@ -1,4 +1,4 @@
-# **Stock Price Predictor Project**
+# **StockSense-AI Project**
 
 ## **Overview**
 
@@ -10,7 +10,7 @@ This project predicts stock prices using historical data and a machine learning 
 
 1. **Stock Data Fetching**\*: Retrieves historical stock data using Yahoo Finance API.\*  
 2. **Feature Engineering**\*: Adds moving averages, lagged values, and performs data preprocessing.\*  
-3. **Machine Learning Model**\*: Uses Linear Regression for stock price prediction.\*  
+3. **Machine Learning Model**\: Uses Linear Regression for stock price prediction.\*  
 4. **Evaluation Metrics**\*: Calculates MAE, RMSE, and R² scores to evaluate model               performance.\*  
 5. **Visualization**\*: Plots actual vs. predicted stock prices.\*  
 6. **Interactive GUI**\*: A PyQt5-based interface allows users to input a company ticker symbol  and get stock price predictions.\*
