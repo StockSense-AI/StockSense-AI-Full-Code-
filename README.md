@@ -30,7 +30,8 @@ This project predicts stock prices using historical data and a machine learning 
     matplotlib
     tkinter
     joblib
-4. Launch the GUI
+4. In line 9 in the GUI, a path/directory is called, which is just the path/directory    where you have the main code/model saved. So you'll just call the model there in      your GUI.
+5. Launch the GUI
     python StockPredictionGUI.py
     Input a stock ticker (e.g., AAPL) in the provided text field.
     Click "Predict Stock Price" to get predictions.
