@@ -35,7 +35,7 @@ The following libraries are required:
 * matplotlib  
 * PyQt5  
 * numpy
-ex. pip install yfinance
+* ex. pip install yfinance
 
 ---
 
