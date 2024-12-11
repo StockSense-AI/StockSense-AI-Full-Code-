@@ -1,5 +1,4 @@
 import tkinter as tk
-import _tkinter as tk
 from tkinter import messagebox
 import pandas as pd
 import joblib  # Assuming your model is saved using joblib
