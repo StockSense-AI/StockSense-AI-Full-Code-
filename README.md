@@ -41,9 +41,9 @@ The following libraries are required:
 ### **Installation**
 
 Clone the repository:  
-git clone https://github.com/StockSense-AI/Makari\_G.git
+git clone https://github.com/StockSense-AI/StockSense-AI-Full-Code-
 
-1. cd Makari\_G  
+1. cd StockSense-AI-Full-Code-  
 2. Install dependencies:  
    pip install \-r requirements.txt  
 3. Set up the project: Ensure that the `Stock_Predictor.py` and `Stock_PredictorGUI.py` files are in the same directory.  
