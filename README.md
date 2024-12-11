@@ -1,69 +1,95 @@
-# Stock Price Predictor Project
+# **Stock Price Predictor Project**
 
-## Overview
+## **Overview**
 
 This project predicts stock prices using historical data and a machine learning model. It includes a linear regression model trained on stock features and a GUI application for real-time predictions.
 
 ---
 
-## Features
+## **Features**
 
-1. **Stock Data Fetching**: Retrieves historical stock data using Yahoo Finance API.
-2. **Feature Engineering**: Adds moving averages, lagged values, and performs data preprocessing.
-3. **Machine Learning Model**: Uses Linear Regression for stock price prediction.
-4. **Evaluation Metrics**: Calculates MAE, RMSE, and R² scores to evaluate model performance.
-5. **Visualization**: Plots actual vs. predicted stock prices.
-6. **Interactive GUI**: A Tkinter-based interface allows users to input a company ticker symbol and get stock price predictions.
+1. **Stock Data Fetching**\*: Retrieves historical stock data using Yahoo Finance API.\*  
+2. **Feature Engineering**\*: Adds moving averages, lagged values, and performs data preprocessing.\*  
+3. **Machine Learning Model**\*: Uses Linear Regression for stock price prediction.\*  
+4. **Evaluation Metrics**\*: Calculates MAE, RMSE, and R² scores to evaluate model performance.\*  
+5. **Visualization**\*: Plots actual vs. predicted stock prices.\*  
+6. **Interactive GUI**\*: A PyQt5-based interface allows users to input a company ticker symbol and get stock price predictions.\*
 
 ---
 
- 1. Clone the repository:
-   ```bash
-   git clone https://github.com/StockSense-AI/Makari_G.git
-   cd Makari_G
-2. Install dependencies
-    pip install -r requirements.txt
-3. Ensure the following libraries are installed:
-    yfinance
-    pandas
-    scikit-learn
-    matplotlib
-    PyQt5
-    joblib
-    numpy
-4. In line 9 in the GUI, a path/directory is called, which is just the path/directory    where you have the main code/model saved. So you'll just call the model there in      your GUI.
-5. Launch the GUI
-    python Stock_PredictorGUI.py
-    Input a stock ticker (e.g., AAPL) in the provided text field.
-    Click "Predict Stock Price" to get predictions.
+## **Getting Started**
 
-Code Structure
+### **Prerequisites**
 
-Stock_Predictor.py: Main script for data fetching, preprocessing, model training, and evaluation.
-Stock_PredictorGUI.py: PyQt5-based GUI for user-friendly stock price prediction.
-linear_regression_model.pkl: Saved machine learning model for GUI predictions.
+1. Python 3.8 or higher  
+2. Install the required dependencies:  
+   pip install \-r requirements.txt
 
-Model Workflow
+### **Dependencies**
 
-Fetch stock data using yfinance.
-Engineer features: Add moving averages, lagging indicators, and drop missing data.
-Train-Test split: Split data into training and testing sets.
-Train the linear regression model.
-Evaluate using MAE, RMSE, and R² scores.
-Predict stock prices using a GUI.
-Visualization
+The following libraries are required:
 
-The project visualizes the model's performance by plotting actual vs. predicted stock prices, making it easier to understand the model's accuracy.
+* yfinance  
+* pandas  
+* scikit-learn  
+* matplotlib  
+* PyQt5  
+* numpy
 
-Future Enhancements
+---
 
-Add support for additional machine learning models (e.g., Random Forest, Neural Networks).
-Implement advanced preprocessing techniques for improved predictions.
-Enhance the GUI with more user-friendly features and detailed visualizations.
-Contributors
+### **Installation**
 
-Makari Green and Danny Adebiyi
+Clone the repository:  
+git clone https://github.com/StockSense-AI/Makari\_G.git
+
+1. cd Makari\_G  
+2. Install dependencies:  
+   pip install \-r requirements.txt  
+3. Set up the project: Ensure that the `Stock_Predictor.py` and `Stock_PredictorGUI.py` files are in the same directory.  
+4. Launch the GUI:  
+   python Stock\_PredictorGUI.py  
+   * Input a stock ticker (e.g., AAPL) in the provided text field.  
+   * Click "Predict Stock Price" to get predictions.
+
+---
+
+## **Code Structure**
+
+### **Files**
+
+* \`\`: Contains the core functionality for data fetching, preprocessing, model training, and evaluation.  
+* \`\`: Contains the PyQt5-based GUI for user interaction.
+
+### **Workflow**
+
+1. Fetch stock data using Yahoo Finance API.  
+2. Engineer features such as moving averages and lagging indicators, then clean the data.  
+3. Split the data into training and testing sets.  
+4. Train a linear regression model on the training data.  
+5. Evaluate the model using metrics (MAE, RMSE, and R²).  
+6. Display the predictions in the GUI and visualize actual vs. predicted prices.
+
+---
+
+## **Visualization**
+
+The project visualizes the model's performance by plotting actual vs. predicted stock prices. The GUI includes a feature to view these results graphically.
+
+---
+
+## **Future Enhancements**
+
+1. Add support for additional machine learning models (e.g., Random Forest, Neural Networks).  
+2. Implement advanced preprocessing techniques for improved predictions.  
+3. Enhance the GUI with more user-friendly features and detailed visualizations.
+
+---
+
+## **Contributors**
+
+* **Makari Green**  
+* **Danny Adebiyi**
+
 Developers and maintainers of the Stock Price Predictor project.
-
-
 
