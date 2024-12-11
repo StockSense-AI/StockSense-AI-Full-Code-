@@ -41,15 +41,6 @@ def evaluate_model(model, X_test, y_test):
     r2 = r2_score(y_test, y_pred)
     return y_pred, mae, rmse, r2
 
-# Step 6: Visualize Results
-def visualize_results(y_test, y_pred):
-    plt.figure(figsize=(10, 6))
-    plt.plot(y_test.values, label='Actual Prices', color='blue')
-    plt.plot(y_pred, label='Predicted Prices', color='red', linestyle='--')
-    plt.legend()
-    plt.title('Actual vs Predicted Stock Prices')
-    plt.show()
-
 # Main Function
 if __name__ == "__main__":
     # Parameters
@@ -81,5 +72,4 @@ if __name__ == "__main__":
     print(f"Root Mean Squared Error (RMSE): {rmse:.2f}")
     print(f"R² Score: {r2:.2f}")
 
-    # Step 6: Visualize Results
-    visualize_results(y_test, y_pred)
+
