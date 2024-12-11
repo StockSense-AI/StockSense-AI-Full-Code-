@@ -28,18 +28,19 @@ This project predicts stock prices using historical data and a machine learning 
     pandas
     scikit-learn
     matplotlib
-    tkinter
+    PyQt5
     joblib
+    numpy
 4. In line 9 in the GUI, a path/directory is called, which is just the path/directory    where you have the main code/model saved. So you'll just call the model there in      your GUI.
 5. Launch the GUI
-    python StockPredictionGUI.py
+    python Stock_PredictorGUI.py
     Input a stock ticker (e.g., AAPL) in the provided text field.
     Click "Predict Stock Price" to get predictions.
 
 Code Structure
 
-StockPrediction.py: Main script for data fetching, preprocessing, model training, and evaluation.
-StockPredictionGUI.py: Tkinter-based GUI for user-friendly stock price prediction.
+Stock_Predictor.py: Main script for data fetching, preprocessing, model training, and evaluation.
+Stock_PredictorGUI.py: PyQt5-based GUI for user-friendly stock price prediction.
 linear_regression_model.pkl: Saved machine learning model for GUI predictions.
 
 Model Workflow
