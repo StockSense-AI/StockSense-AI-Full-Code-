@@ -11,9 +11,9 @@ This project predicts stock prices using historical data and a machine learning 
 1. **Stock Data Fetching**\*: Retrieves historical stock data using Yahoo Finance API.\*  
 2. **Feature Engineering**\*: Adds moving averages, lagged values, and performs data preprocessing.\*  
 3. **Machine Learning Model**\*: Uses Linear Regression for stock price prediction.\*  
-4. **Evaluation Metrics**\*: Calculates MAE, RMSE, and R² scores to evaluate model performance.\*  
+4. **Evaluation Metrics**\*: Calculates MAE, RMSE, and R² scores to evaluate model               performance.\*  
 5. **Visualization**\*: Plots actual vs. predicted stock prices.\*  
-6. **Interactive GUI**\*: A PyQt5-based interface allows users to input a company ticker symbol and get stock price predictions.\*
+6. **Interactive GUI**\*: A PyQt5-based interface allows users to input a company ticker symbol  and get stock price predictions.\*
 
 ---
 
@@ -23,7 +23,7 @@ This project predicts stock prices using historical data and a machine learning 
 
 1. Python 3.8 or higher  
 2. Install the required dependencies:  
-   pip install \-r requirements.txt
+   pip install -r requirements.txt
 
 ### **Dependencies**
 
@@ -45,10 +45,10 @@ git clone https://github.com/StockSense-AI/StockSense-AI-Full-Code-
 
 1. cd StockSense-AI-Full-Code-  
 2. Install dependencies:  
-   pip install \-r requirements.txt  
-3. Set up the project: Ensure that the `Stock_Predictor.py` and `Stock_PredictorGUI.py` files are in the same directory.  
+   pip install -r requirements.txt  
+3. Set up the project: Ensure that the `Stock_Predictor.py` and `Stock_PredictorGUI.py` files       are in the same directory.  
 4. Launch the GUI:  
-   python Stock\_PredictorGUI.py  
+   python Stock_PredictorGUI.py  
    * Input a stock ticker (e.g., AAPL) in the provided text field.  
    * Click "Predict Stock Price" to get predictions.
 
@@ -58,8 +58,8 @@ git clone https://github.com/StockSense-AI/StockSense-AI-Full-Code-
 
 ### **Files**
 
-* \`\`: Contains the core functionality for data fetching, preprocessing, model training, and evaluation.  
-* \`\`: Contains the PyQt5-based GUI for user interaction.
+* Stock_Predictor.py : Contains the core functionality for data fetching, preprocessing, model training, and evaluation.  
+* Stock_PredictorGUI.py : Contains the PyQt5-based GUI for user interaction.
 
 ### **Workflow**
 
